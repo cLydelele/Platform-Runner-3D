@@ -12,6 +12,7 @@ public class LevelSelector : MonoBehaviour
 {
     public int level;
     public TextMeshProUGUI levelText;
+    public CharacterDatabase characterDB;
 
 
     // Start is called before the first frame update
@@ -20,11 +21,14 @@ public class LevelSelector : MonoBehaviour
     }
     public void LoadLevel()
     {
+
         SceneManager.LoadScene("Level " + level.ToString());
         Time.timeScale = 1.0f;
+
         
        
     }
+
 
     public void GoToMainMenu()
     {

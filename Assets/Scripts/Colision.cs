@@ -6,10 +6,14 @@ public class Colision : MonoBehaviour
 {
     private GameManager gameManager;
     public int pointValue;
+    public LevelingSystem levelingSystem;
+    
     // Start is called before the first frame update
     void Start()
     {
         gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
+        levelingSystem = GameObject.Find("Player").GetComponent<LevelingSystem>();
+        
     }
 
     // Update is called once per frame
@@ -26,8 +30,11 @@ public class Colision : MonoBehaviour
             Destroy(gameObject);
             Destroy(other.gameObject); 
             }
-        gameManager.UpdateScore(pointValue);
+       gameManager.UpdateScore(pointValue);
+        levelingSystem.GainExperienceFlatRate(pointValue);
 
+       
 
     }
+
 }

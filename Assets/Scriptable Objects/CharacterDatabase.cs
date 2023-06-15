@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using System.IO;
 [CreateAssetMenu]
 public class CharacterDatabase : ScriptableObject
 {
@@ -13,9 +13,9 @@ public class CharacterDatabase : ScriptableObject
             return character.Length;
         }
     }
-    public Character GetCharacter (int index)
+    public Character GetCharacter(int index)
     {
         return character[index];
     }
-
+    
 }

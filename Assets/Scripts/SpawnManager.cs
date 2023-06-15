@@ -8,12 +8,18 @@ public class SpawnManager : MonoBehaviour
     public float startDelay = 3.0f;
     public float spawnInterval = 5.0f;
     public Transform[] enemiesSpawnPoints;    //array with spawns point assigned in editor
+    public int enemyIndex;
 
 
     // Start is called before the first frame update
     void Start()
-    {      
-        InvokeRepeating("SpawnRandomEnemy", startDelay, spawnInterval);
+    {
+        int i;
+        for (i = 0; i < enemyPrefabs.Length; i++)
+        {
+            Instantiate(enemyPrefabs[RandomizeEnemy()], enemiesSpawnPoints[i]);
+        }
+        // InvokeRepeating("SpawnRandomEnemy", startDelay, spawnInterval);
     }
 
     //randomizing spawn point
@@ -25,7 +31,13 @@ public class SpawnManager : MonoBehaviour
     //randomizing type of enemy
     void SpawnRandomEnemy()
     {       
-            int enemyIndex = Random.Range(0, enemyPrefabs.Length);
-            Instantiate(enemyPrefabs[enemyIndex], GetSpawnPoint());       
+            int enemyIndexx = Random.Range(0, enemyPrefabs.Length);
+            Instantiate(enemyPrefabs[enemyIndexx], GetSpawnPoint());       
+    }
+    public int RandomizeEnemy()
+    {
+        int enemyIndex = Random.Range(0, enemyPrefabs.Length);
+        return enemyIndex;
     }
 }
+

@@ -14,11 +14,12 @@ public class MenuManager : MonoBehaviour
     public Button selectLevel;
     public Button selectHero;
     public Button quit;
+    public CharacterDatabase characterDB;
     
     // Start is called before the first frame update
     void Start()
     {
-     
+       
     }
 
     // Update is called once per frame
@@ -28,7 +29,9 @@ public class MenuManager : MonoBehaviour
     }
     public void StartNewGame ()
     {
-        SceneManager.LoadScene(1);
+        //CharacterManager.instance.selectedOption = 0;
+       // CharacterManager.instance.UpdateCharacter(0);
+        SceneManager.LoadScene("Level 1");
         Time.timeScale = 1.0f;
         Physics.gravity = new Vector3(0, -9.8f, 0);
     }
@@ -40,11 +43,17 @@ public class MenuManager : MonoBehaviour
     {
         SceneManager.LoadScene("Hero Selector");
     }
+    public void GoToAchievements()
+    {
+        SceneManager.LoadScene("Achievements");
+    }
     public void QuitGame()
     {
+
 #if UNITY_EDITOR
         UnityEditor.EditorApplication.isPlaying = false;
 #endif
         Application.Quit();
     }
+
 }

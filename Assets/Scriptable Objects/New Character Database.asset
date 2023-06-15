@@ -16,9 +16,36 @@ MonoBehaviour:
   - characterName: Char1
     characterObject: {fileID: 1194122105297375096, guid: 762622a1451af71429a10315323a4d1f, type: 3}
     icon: {fileID: 21300000, guid: 0e5adb15cec12454f81b6429ab4f4a33, type: 3}
+    heroLevel: 7
+    heroCurrentXp: 19
+    heroRequiredXp: 151
+    speedModifier: 1
+    jumpForceModifier: 1
+    gravityModifier: 1
+    doubleJump: 0
+    projectileCoolDown: 2
+    secondWind: 0
   - characterName: Char2
-    characterObject: {fileID: 742278869075799491, guid: a626f2004ba32c74bb5006f0aab70780, type: 3}
+    characterObject: {fileID: 1194122105297375096, guid: 43d48b3e984c3a74ba0786669105d2f8, type: 3}
     icon: {fileID: 21300000, guid: 6557b23e045785f43a7370b444b4ded7, type: 3}
+    heroLevel: 3
+    heroCurrentXp: 5
+    heroRequiredXp: 101
+    speedModifier: 1
+    jumpForceModifier: 1
+    gravityModifier: 1
+    doubleJump: 1
+    projectileCoolDown: 2
+    secondWind: 1
   - characterName: Char3
-    characterObject: {fileID: 5506734294982456678, guid: c9336a0ebb6d2454e8a00dc9532ef959, type: 3}
-    icon: {fileID: 21300000, guid: 375817c0e9dc40b41b05fbf4890af455, type: 3}
+    characterObject: {fileID: 6632614722237953452, guid: 7541ade9c81d35f44aa6e1b12de7b906, type: 3}
+    icon: {fileID: 21300000, guid: a267044693b24a04cb73a1cffec1c01f, type: 3}
+    heroLevel: 12
+    heroCurrentXp: 3
+    heroRequiredXp: 249
+    speedModifier: 1
+    jumpForceModifier: 1
+    gravityModifier: 1
+    doubleJump: 1
+    projectileCoolDown: 2
+    secondWind: 0
