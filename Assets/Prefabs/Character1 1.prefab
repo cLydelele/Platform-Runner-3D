@@ -196,8 +196,9 @@ GameObject:
   - component: {fileID: 1194122105297375099}
   - component: {fileID: 1194122105297375073}
   - component: {fileID: 2018320261194202938}
+  - component: {fileID: -1349125331475216499}
   m_Layer: 0
-  m_Name: Character1
+  m_Name: Character1 1
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -248,7 +249,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 9f553383efa3e164989686edaab71d28, type: 2}
+  - {fileID: 2100000, guid: 116a8eb114548e04ca5ed6b230a76f9d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -321,7 +322,7 @@ MonoBehaviour:
   characterCoolDownDuration: 0
   characterSecondWind: 0
   shootingPoint: {fileID: 26534820}
-  animator: {fileID: 0}
+  animator: {fileID: -1349125331475216499}
   isRunning: 0
   isJumping: 0
   isJumpingWhileRunning: 0
@@ -359,3 +360,23 @@ MonoBehaviour:
   playerLevel: 0
   playerCurrentXp: 0
   playerRequiredXp: 0
+--- !u!95 &-1349125331475216499
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1194122105297375096}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: b5f71c859f9f9bf41badda8a4650082c, type: 3}
+  m_Controller: {fileID: 9100000, guid: 9b2b6d7066f86c544b4ff7a1a332db3b, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0

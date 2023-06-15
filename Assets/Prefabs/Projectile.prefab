@@ -13,8 +13,8 @@ GameObject:
   - component: {fileID: 1740880815896573488}
   - component: {fileID: 1740880815896573490}
   - component: {fileID: 1740880815896573491}
-  - component: {fileID: 4823226391017324597}
   - component: {fileID: 7545198793589602332}
+  - component: {fileID: 4051424037882320875}
   m_Layer: 0
   m_Name: Projectile
   m_TagString: projectile
@@ -30,7 +30,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1740880815896573492}
   m_LocalRotation: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
-  m_LocalPosition: {x: 4.8220067, y: 1.05, z: -49}
+  m_LocalPosition: {x: 2.6920817, y: 7.462981, z: -4.7355585}
   m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -44,7 +44,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1740880815896573492}
-  m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &1740880815896573488
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -101,6 +101,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 20
   playerPos: {x: 0, y: 0, z: 0}
+  projectileRB: {fileID: 0}
 --- !u!54 &1740880815896573491
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -117,19 +118,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
---- !u!65 &4823226391017324597
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1740880815896573492}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1.0483023, y: 2.2039986, z: 1.0885026}
-  m_Center: {x: -0.018417425, y: 0.018663406, z: -0.0082031265}
 --- !u!114 &7545198793589602332
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -143,3 +131,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pointValue: 0
+  levelingSystem: {fileID: 0}
+--- !u!135 &4051424037882320875
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1740880815896573492}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
