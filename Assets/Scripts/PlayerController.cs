@@ -48,9 +48,6 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         playerRB = GameObject.FindGameObjectWithTag("Player").GetComponent<Rigidbody>();
-        joystick = GameObject.Find("Fixed Joystick").GetComponent<FixedJoystick>();
-        jumpButton = GameObject.Find("JumpButton").GetComponent<Button>();
-        shootButton = GameObject.Find("ShootButton").GetComponent<Button>();
         animator = GetComponent<Animator>();
         gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
         GetCharacterModifiers();

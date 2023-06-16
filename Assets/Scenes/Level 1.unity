@@ -9986,7 +9986,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1685569846}
+      - m_Target: {fileID: 771348809}
         m_TargetAssemblyTypeName: PlayerController, Assembly-CSharp
         m_MethodName: ShootProjectile
         m_Mode: 1
@@ -18015,6 +18015,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 421442, guid: fb4e0b01a8eccf24c9e5ca4c30a9b2be, type: 3}
   m_PrefabInstance: {fileID: 762608785}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &771348809 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -8288415584785161087, guid: 7541ade9c81d35f44aa6e1b12de7b906, type: 3}
+  m_PrefabInstance: {fileID: 896947088}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df3999de32438ac46be8ce6ed4c40e06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &772148569
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20454,75 +20465,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 481750, guid: df5b94a5c7b01ae4da71fe5dd12ddcad, type: 3}
   m_PrefabInstance: {fileID: 829362285}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &833898852
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: -8288415584785161087, guid: 7541ade9c81d35f44aa6e1b12de7b906, type: 3}
-      propertyPath: joystick
-      value: 
-      objectReference: {fileID: 1094394743}
-    - target: {fileID: -8288415584785161087, guid: 7541ade9c81d35f44aa6e1b12de7b906, type: 3}
-      propertyPath: jumpButton
-      value: 
-      objectReference: {fileID: 1143057764}
-    - target: {fileID: -8288415584785161087, guid: 7541ade9c81d35f44aa6e1b12de7b906, type: 3}
-      propertyPath: shootButton
-      value: 
-      objectReference: {fileID: 462327300}
-    - target: {fileID: 6632614722237852044, guid: 7541ade9c81d35f44aa6e1b12de7b906, type: 3}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6632614722237852044, guid: 7541ade9c81d35f44aa6e1b12de7b906, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 1.52
-      objectReference: {fileID: 0}
-    - target: {fileID: 6632614722237852044, guid: 7541ade9c81d35f44aa6e1b12de7b906, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.17
-      objectReference: {fileID: 0}
-    - target: {fileID: 6632614722237852044, guid: 7541ade9c81d35f44aa6e1b12de7b906, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -49.78
-      objectReference: {fileID: 0}
-    - target: {fileID: 6632614722237852044, guid: 7541ade9c81d35f44aa6e1b12de7b906, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6632614722237852044, guid: 7541ade9c81d35f44aa6e1b12de7b906, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6632614722237852044, guid: 7541ade9c81d35f44aa6e1b12de7b906, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6632614722237852044, guid: 7541ade9c81d35f44aa6e1b12de7b906, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6632614722237852044, guid: 7541ade9c81d35f44aa6e1b12de7b906, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6632614722237852044, guid: 7541ade9c81d35f44aa6e1b12de7b906, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6632614722237852044, guid: 7541ade9c81d35f44aa6e1b12de7b906, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6632614722237953452, guid: 7541ade9c81d35f44aa6e1b12de7b906, type: 3}
-      propertyPath: m_Name
-      value: Characters_POLYGON_Knights
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 7541ade9c81d35f44aa6e1b12de7b906, type: 3}
 --- !u!1001 &834536064
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22438,6 +22380,75 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 895876969}
   m_CullTransparentMesh: 1
+--- !u!1001 &896947088
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8288415584785161087, guid: 7541ade9c81d35f44aa6e1b12de7b906, type: 3}
+      propertyPath: joystick
+      value: 
+      objectReference: {fileID: 1094394743}
+    - target: {fileID: -8288415584785161087, guid: 7541ade9c81d35f44aa6e1b12de7b906, type: 3}
+      propertyPath: jumpButton
+      value: 
+      objectReference: {fileID: 1143057764}
+    - target: {fileID: -8288415584785161087, guid: 7541ade9c81d35f44aa6e1b12de7b906, type: 3}
+      propertyPath: shootButton
+      value: 
+      objectReference: {fileID: 462327300}
+    - target: {fileID: 6632614722237852044, guid: 7541ade9c81d35f44aa6e1b12de7b906, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6632614722237852044, guid: 7541ade9c81d35f44aa6e1b12de7b906, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.0677235
+      objectReference: {fileID: 0}
+    - target: {fileID: 6632614722237852044, guid: 7541ade9c81d35f44aa6e1b12de7b906, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.00000047683716
+      objectReference: {fileID: 0}
+    - target: {fileID: 6632614722237852044, guid: 7541ade9c81d35f44aa6e1b12de7b906, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -51.596783
+      objectReference: {fileID: 0}
+    - target: {fileID: 6632614722237852044, guid: 7541ade9c81d35f44aa6e1b12de7b906, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6632614722237852044, guid: 7541ade9c81d35f44aa6e1b12de7b906, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6632614722237852044, guid: 7541ade9c81d35f44aa6e1b12de7b906, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6632614722237852044, guid: 7541ade9c81d35f44aa6e1b12de7b906, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6632614722237852044, guid: 7541ade9c81d35f44aa6e1b12de7b906, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6632614722237852044, guid: 7541ade9c81d35f44aa6e1b12de7b906, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6632614722237852044, guid: 7541ade9c81d35f44aa6e1b12de7b906, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6632614722237953452, guid: 7541ade9c81d35f44aa6e1b12de7b906, type: 3}
+      propertyPath: m_Name
+      value: Characters_POLYGON_Knights
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7541ade9c81d35f44aa6e1b12de7b906, type: 3}
 --- !u!1001 &901016145
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -28613,7 +28624,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1685569846}
+      - m_Target: {fileID: 771348809}
         m_TargetAssemblyTypeName: PlayerController, Assembly-CSharp
         m_MethodName: Jumping
         m_Mode: 1
@@ -43912,17 +43923,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 416864, guid: d66c89601ce96d4419ce36a4dce3c401, type: 3}
   m_PrefabInstance: {fileID: 1683942652}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1685569846 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: -8288415584785161087, guid: 7541ade9c81d35f44aa6e1b12de7b906, type: 3}
-  m_PrefabInstance: {fileID: 833898852}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: df3999de32438ac46be8ce6ed4c40e06, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &1686305354
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -49231,6 +49231,9 @@ MonoBehaviour:
   yourHero: {fileID: 0}
   player: {fileID: 0}
   selectedOption: 0
+  joystick: {fileID: 1094394743}
+  jumpButton: {fileID: 1143057764}
+  shootButton: {fileID: 462327300}
 --- !u!4 &1918927572
 Transform:
   m_ObjectHideFlags: 0

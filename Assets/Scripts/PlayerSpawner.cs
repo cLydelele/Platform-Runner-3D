@@ -11,10 +11,14 @@ public class PlayerSpawner : MonoBehaviour
     public GameObject yourHero;
     public Player player;
     public int selectedOption;
+    public Joystick joystick;
+    public Button jumpButton;
+    public Button shootButton;
 
 
     private void Start()
     {
+
         // testing instantiate for lvl desing
        // Instantiate(characterDB.character[1].characterObject, new Vector3(1f, 1f, -49f), gameObject.transform.rotation);
         //characterDB.LoadInfo();
